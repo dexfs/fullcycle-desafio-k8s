@@ -42,4 +42,4 @@ $ kubectl apply -f service.yaml
 
 [Docker Hub Image](https://hub.docker.com/repository/docker/dexfs/go-greeting)
 
-[Github Repository](https://github.com/dexfs/go-greeting)
+[go-greeting github](https://github.com/dexfs/go-greeting)
