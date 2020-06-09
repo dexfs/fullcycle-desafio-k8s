@@ -31,3 +31,15 @@ $ kubectl apply -f presistent-volume.yaml
 $ kubectl apply -f deployment.yaml 
 $ kubectl apply -f service.yaml
 ```
+
+### greeting 
+
+```bash 
+cd greeting
+$ kubectl apply -f deployment.yaml 
+$ kubectl apply -f service.yaml
+```
+
+[Docker Hub Image](https://hub.docker.com/repository/docker/dexfs/go-greeting)
+
+[Github Repository](https://github.com/dexfs/go-greeting)

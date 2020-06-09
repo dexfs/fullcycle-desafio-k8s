@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gogreeting-desafio-k8s
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: gogreeting-desafio-k8s
+  template:
+    metadata:
+      labels:
+        app: gogreeting-desafio-k8s
+    spec:
+      containers:
+      - name: dexfs-go-greeting
+        image: dexfs/go-greeting
+        ports:
+          - containerPort: 8000
